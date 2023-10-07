@@ -1,0 +1,13 @@
+@mixin rent-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+}    

@@ -1,0 +1,296 @@
+@import "../components/buttons";
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+    padding: 32px 0;
+}
+.full-height-90{
+    min-height: 70vh;
+    height: 100%;
+    padding: 32px 0;
+}
+main{
+    background-color: $rengmMain;
+}
+
+
+.two__cards{
+    padding-left: 20px;
+    .row{
+        gap: 60px;
+        .card{
+            width: 640px;
+            height: 360px;
+            background-color: $reng3;
+            border-radius: 8px;
+            position: relative;
+            .card-content{
+                padding: 24px;
+                h1{
+                    font-size: 32px;
+                    height: 700;
+                    color: $rengWhite;
+                    line-height: 48px;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    color: $rengWhite;
+                    padding: 15px 0;
+                }
+                .rental-car{
+                    padding-top: 10px;
+                    a{
+                        padding: 15px 20px;
+                        border-radius: 8px;
+                        color: $rengWhite;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        background-color: $reng1;
+                    }
+                }
+                .card-img{
+                    position: absolute;
+                    bottom: 15px;
+                    right: 10px;
+                    img{
+                        width: 500px;
+                        height: 100px;
+                    }
+                }
+
+            }
+
+        }
+        .card2{
+            width: 640px;
+            height: 360px;
+            background-color: $reng1;
+            border-radius: 8px;
+            position: relative;
+            .card-content{
+                padding: 24px;
+                h1{
+                    font-size: 32px;
+                    height: 700;
+                    color: $rengWhite;
+                    line-height: 48px;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    color: $rengWhite;
+                    padding: 15px 0;
+                }
+                .rental-car{
+                    padding-top: 10px;
+                    a{
+                        padding: 15px 20px;
+                        border-radius: 8px;
+                        color: $rengWhite;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        background-color: $reng3;
+                    }
+                }
+                .card-img{
+                    position: absolute;
+                    bottom: 15px;
+                    right: 10px;
+                    img{
+                        width: 500px;
+                        height: 100px;
+                    }
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+.pickUp{
+    
+    padding-top: 30px;
+    .row{
+        display: flex;
+        gap:18px;
+        .leftPick{
+        background-color: $rengWhite;
+        width:582px ;
+        height: 132px;
+        border-radius: 8px;
+       .pickUpContent{
+        padding-top: 24px;
+        padding-left: 48px;
+
+        .select{
+            padding-top: 20px;
+            label{
+               margin-left: 5px;
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+        }
+       }
+    }
+    }
+
+    
+    .rightPick{
+        background-color: $rengWhite;
+        width:582px ;
+        height: 132px;
+        border-radius: 8px;
+        .pickUpContent{
+         padding-top: 24px;
+         padding-left: 48px;
+ 
+         .select{
+             padding-top: 20px;
+             label{
+                margin-left: 5px;
+                 font-size: 16px;
+                 font-weight: 700;
+             }
+ 
+         }
+        }
+     }
+    
+}
+.ikon{
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: $reng1;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    .fa-arrow-right-arrow-left{
+        margin-top: 20px;
+        color: $rengWhite;
+    }
+
+}
+
+#cars{
+    padding-left: 30px;
+    padding-right: 70px;
+    .top-cars-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            color: $reng3;
+        }
+    }
+    .card {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        min-width: 290px;
+        min-height: 368px;
+        padding: 20px;
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        .car-name{
+            padding-top: 10px;
+        }
+        .fa-heart{
+            position: absolute;
+            right:10px;
+            top: 40px;
+        }
+        img{
+            padding-top: 30px;
+            padding-left: 30px;
+        }
+      
+        .car-name {
+          font-weight: bold;
+          font-size: 24px;
+          margin-bottom: 10px;
+      
+          
+        }
+      
+        .car-image {
+          min-width: 232px;
+          height: 72px;
+          margin: 20px 0;
+          filter: drop-shadow(0 0 0.75rem gray);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          
+    
+    
+        }
+      
+        .details {
+          display: flex;
+          justify-content: space-between;
+          padding-top: 30px;
+      
+          .detail {
+            display: flex;
+            align-items: center;
+      
+            .icon {
+              margin-right: 5px;
+            }
+      
+            .detail {
+              margin-left: 10px;
+            }
+          }
+        }
+      
+        .price {
+          font-weight: bold;
+          font-size: 20px;
+          margin-top: 20px;
+          display: flex;
+          justify-content: space-between;
+          padding-top: 50px;
+          a{
+            @include rent-button
+          }
+        }
+      
+        
+      }
+    
+    @media only screen and (max-width: 993px) {
+        .details{
+            .detail{
+                flex-direction: column;
+            }
+        }
+    
+
+
+}
+.button-links{
+    display: flex;
+    height: 10px;
+    padding: 30px 20px;
+    justify-content: center;
+    align-items: center;
+    a{
+        @include rent-button
+    }
+}
+}
+

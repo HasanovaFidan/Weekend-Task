@@ -1,0 +1,70 @@
+header{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        .leftNavbar{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap ;
+            
+            a{
+                font-size: 32px;
+                font-weight: 700;
+                color: $reng1;
+                padding-top: 40px;
+            }
+            
+            .search{
+                position: relative;
+                input{
+                    position: absolute;
+                    border-radius: 70px;
+                    width:  452px;
+                    height: 44px;
+                    padding-left: 50px;
+                    font-size: 16px;
+                }
+                .fa-magnifying-glass{
+                    position: absolute;
+                    font-size: 20px;
+                    top: 10px;
+                    left: 25px;
+                }
+                .fa-timeline{
+                    position: absolute;
+                    font-size: 20px;
+                    top: 10px;
+                    left: 400px;
+                }
+            }
+
+            
+        }
+        .rightNavbar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 40PX;
+            gap: 20px ;
+            .fa-solid{
+                width: 44px;
+                height: 44px;
+                border-radius: 90px;
+                border: 1px solid gray;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+
+
+
+            }
+        }
+    }
+}
