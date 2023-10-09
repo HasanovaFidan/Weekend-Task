@@ -1,58 +1,59 @@
-header{
+header {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    nav{
+    border-bottom: 1.5px solid rgb(213, 227, 228);
+    height: 120px;
+    nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
         width: 100%;
-        .leftNavbar{
+        .leftNavbar {
             display: flex;
             gap: 20px;
             align-items: center;
             justify-content: space-between;
-            flex-wrap: wrap ;
-            
-            a{
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            a {
                 font-size: 32px;
                 font-weight: 700;
                 color: $reng1;
                 padding-top: 40px;
             }
-            
-            .search{
+            .search {
                 position: relative;
-                input{
+                input {
                     position: absolute;
                     border-radius: 70px;
-                    width:  452px;
+                    border: 2px solid rgb(213, 227, 228);
+                    width: 452px;
                     height: 44px;
                     padding-left: 50px;
                     font-size: 16px;
                 }
-                .fa-magnifying-glass{
+                .fa-magnifying-glass {
                     position: absolute;
                     font-size: 20px;
                     top: 10px;
                     left: 25px;
                 }
-                .fa-timeline{
+                .fa-timeline {
                     position: absolute;
                     font-size: 20px;
                     top: 10px;
                     left: 400px;
                 }
             }
-
-            
         }
-        .rightNavbar{
+        .rightNavbar {
             display: flex;
             align-items: center;
             justify-content: center;
-            padding-top: 40PX;
-            gap: 20px ;
-            .fa-solid{
+            padding-top: 40px;
+            margin-bottom: 40px;
+            gap: 20px;
+            .fa-solid {
                 width: 44px;
                 height: 44px;
                 border-radius: 90px;
@@ -60,10 +61,6 @@ header{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-
-
-
-
             }
         }
     }

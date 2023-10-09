@@ -1,0 +1,5 @@
+@mixin createBox($width, $height, $gap) {
+    width: $width;
+    height: $height;
+    gap: $gap;
+}
